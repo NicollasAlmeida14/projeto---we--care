@@ -1,0 +1,148 @@
+/* ================================SEÇÃO TAGS===================================== */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin: 32px 0 65px 0;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+    position: absolute;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* ======================SEÇÃO CLASSES=============================== */
+
+.logo {
+    height: 500px;
+    width: 568px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 23px;
+}
+
+.link-header:hover {
+    font-size: 29px;
+    transition: 0.5s;
+}
+
+.button-header {
+    background: #665ae1;
+    border-radius: 20.5px;
+    height: 41px;
+    width: 130px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+.button-header:hover {
+    background: #483fa9;
+    height: 45px;
+    width: 140px;
+    transition: 0.5s;
+}
+
+.button-main {
+    background: #adf000;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: black;
+}
+
+
+.button-main:hover {
+    background: #7aab00;
+    width: 250px;
+    height: 75px;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:900px) {
+
+    header,
+    p {
+        display: none;
+    }
+
+    .logo {
+        width: 354px;
+        height: 317px;
+        margin-top: 149px;
+        margin-left: 25px;
+        display: block;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 60.95px;
+        margin-top: 24px;
+    }
+
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36.57px;
+        margin-bottom: 17px;
+        margin-top: 7px;
+    }
+}
